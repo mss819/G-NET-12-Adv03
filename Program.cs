@@ -138,6 +138,45 @@ namespace G_NET_12_Adv03
 
             #endregion
 
+            #region Exercise 4
+            ////Create a HashSet<string> with a case-insensitive comparer: new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+            ////Add these emails: "ahmed@test.com", "AHMED@test.com", "sara@test.com", "Sara@Test.Com"
+
+            //HashSet<string> set = new HashSet<string>(StringComparer.OrdinalIgnoreCase) 
+            //{
+
+            //   "ahmed@test.com",
+            //    "AHMED@test.com",
+            //    "sara@test.com", 
+            //    "Sara@Test.Com"
+
+            //};
+
+            ////Print Count — how many are actually stored? Explain why.
+            //Console.WriteLine($"Count of Hashset  = {set.Count()}");// 2 because of StringComparer.OrdinalIgnoreCase ignoring repetition 
+
+            ////Create two sets: Set A = {1,2,3,4,5} and Set B = {4,5,6,7,8}
+            //HashSet<int> SetA = new() { 1, 2, 3, 4, 5 };
+            //HashSet<int> SetB = new() { 4, 5, 6, 7, 8 };
+
+            ////Print the result of: UnionWith, IntersectWith, ExceptWith
+            ////SetA.UnionWith(SetB);
+            ////Console.WriteLine("Result of UnionWith = " + string.Join(", ", SetA));
+            ////Console.WriteLine();
+            ////SetA.IntersectWith(SetB);
+            ////Console.WriteLine("Result of IntersectWith = " + string.Join(", ", SetA));
+            ////Console.WriteLine();
+            ////SetA.ExceptWith(SetB);
+            ////Console.WriteLine("Result of ExceptWith = " + string.Join(", ", SetA));
+
+            ////Use IsSubsetOf to check if {1,2} is a subset of Set A
+            //ConsoleHelper.PrintHashSet("SetA", SetA);
+            //HashSet<int> smallSet = new (){ 1, 2 };
+
+            //Console.WriteLine("Is subset? " + smallSet.IsSubsetOf(SetA));
+
+            #endregion
+
         }
     }
 }
