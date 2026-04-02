@@ -177,6 +177,42 @@ namespace G_NET_12_Adv03
 
             #endregion
 
+            #region Exercise 5
+
+            //Queue<string> queue = new();
+            //queue.Enqueue("Report.pdf");
+            //queue.Enqueue("Invoice.pdf");
+            //queue.Enqueue("Letter.docx");
+            //queue.Enqueue("Resume.pdf");
+            //queue.Enqueue("Photo.jpg");
+
+            ////Print the queue contents and Count
+            //Console.WriteLine($"count of Queue = {queue.Count()}") ;
+            //Console.WriteLine("---Content Of Queue---");
+            //foreach (var item in queue)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //Console.WriteLine();
+
+            ////Use Peek to see which document will print next (without removing)
+            //Console.WriteLine($"print next = {queue.Peek()}");
+            //Console.WriteLine();
+            ////Process the queue: Dequeue each document and print "Printing: [name]"
+            //while (queue.Count()>0)
+            //{
+            //    string Name = queue.Dequeue();
+            //    Console.WriteLine($"Printing: {Name}");
+                
+            //}
+            //Console.WriteLine();
+
+            ////Try TryDequeue on the now-empty queue — what happens?
+            //Queue<string> queue1 = new();
+            //queue1.TryDequeue(out string result);// returns false and result is null or default value of string which is null
+            //Console.WriteLine(result);
+
+            #endregion
         }
     }
 }
