@@ -203,13 +203,44 @@ namespace G_NET_12_Adv03
             //{
             //    string Name = queue.Dequeue();
             //    Console.WriteLine($"Printing: {Name}");
-                
+
             //}
             //Console.WriteLine();
 
             ////Try TryDequeue on the now-empty queue — what happens?
             //Queue<string> queue1 = new();
             //queue1.TryDequeue(out string result);// returns false and result is null or default value of string which is null
+            //Console.WriteLine(result);
+
+            #endregion
+
+            #region Exercise 6
+
+            //Stack<string> stack = new();
+            ////Push 5 URLs: "google.com", "github.com", "stackoverflow.com", "youtube.com", "claude.ai"
+            //stack.Push("google.com");
+            //stack.Push("github.com");
+            //stack.Push("stackoverflow.com");
+            //stack.Push("youtube.com");
+            //stack.Push("claude.com");
+
+            ////Use Peek to see the current page (top of stack)
+            //Console.WriteLine($"Top Of Stack = {stack.Peek()}");
+            //Console.WriteLine();
+
+            ////Press "back" 3 times using Pop — print each page you leave
+            //Console.WriteLine($"leaved: {stack.Pop()}");
+            //Console.WriteLine($"leaved: {stack.Pop()}");
+            //Console.WriteLine($"leaved: {stack.Pop()}");
+            //Console.WriteLine();
+
+            ////Print the current page after going back
+            //Console.WriteLine($"Current Page: {stack.Peek()}"); 
+            //Console.WriteLine();
+
+            ////Try TryPop on an empty stack — what happens?
+            //Stack<string> stack1 = new();
+            //stack1.TryPop(out string result); // returns false and result is null or default value of string which is null
             //Console.WriteLine(result);
 
             #endregion
